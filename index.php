@@ -26,13 +26,14 @@
 
         <header>
             <nav class="nav navbar justify-content-center">
-                <h1>TODO LIST</h1>
+                <h1 class="text-danger">TODO LIST</h1>
             </nav>
         </header>
 
         <main class="container">
+
             <section>
-                <div class="border mb-5 rounded-3 p-3">
+                <div class="mb-5 rounded-3">
 
                     <form>
 
@@ -50,18 +51,18 @@
 
             <section>
 
-                <div class="container-todolist border rounded-3">
-    
+                <div class="container-todolist border rounded-3 bg-todolist-container">
+
                     <div class="d-flex justify-content-between border-bottom p-3 align-items-baseline" v-for="element in toDoList">
                         <p>{{element.text}}</p>
-    
+
                         <a href="#" class="rounded-2 bg-danger p-2 text-white ">
                             <i class="fa-solid fa-trash fs-6"></i>
                         </a>
-    
-    
+
+
                     </div>
-    
+
                 </div>
 
             </section>
