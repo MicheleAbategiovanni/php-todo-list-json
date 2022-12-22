@@ -1,6 +1,5 @@
 <?php
 
-
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +20,45 @@
 
 <body>
 
+    <div id="app">
+
+        <header>
+            <nav class="nav navbar justify-content-center">
+                <h1>TODO LIST</h1>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <div class="container border rounded-3 p-3">
+
+                    <form action="" method="get">
+
+                        <div class="input-group ">
+                            <span class="input-group-text">Todo:</span>
+                            <input type="text" class="form-control" placeholder="" name="testo" v-model="formData.text">
+                            <button class="btn btn-danger" @click.prevent="onToDo">Aggiungi</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </section>
+
+            <section>
+                <div class="container mt-3 border rounded-3">
+                    <h3 v-for="element in toDoList">{{element.text}}</h3>
+                </div>
+            </section>
+        </main>
+
+
+    </div>
+
+
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
