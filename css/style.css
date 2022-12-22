@@ -1,17 +1,19 @@
-body{
+body {
     height: 100vh;
     width: 100vw;
     background-image: url(../img/wallpaper-php.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.container-todolist{
+.container-todolist {
 
     height: 40vh;
     overflow: auto;
 
-}   
+}
 
 
-.bg-todolist-container{
+.bg-todolist-container {
     background-color: rgba(225, 225, 225, 0.84);
 }
