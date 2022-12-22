@@ -54,10 +54,10 @@
                 <div class="container-todolist border rounded-3 bg-todolist-container">
 
                     <div class="d-flex justify-content-between border-bottom p-3 align-items-baseline" v-for="element in toDoList">
-                        <p>{{element.text}}</p>
+                        <p :class="(element.status === true ) ? 'text-decoration-line-through' : '' ">{{element.text}}</p>
 
                         <a href="#" class="rounded-2 bg-danger p-2 text-white ">
-                            <i class="fa-solid fa-trash fs-6"></i>
+                            <i class="fa-solid fa-trash fs-6" ></i>
                         </a>
 
 

@@ -13,11 +13,11 @@
     },
     {
         "text": "HTML 5",
-        "status": false
+        "status": true
     },
     {
         "text": "CSS",
-        "status": false
+        "status": true
     },
     {
         "text": "Laravel",
@@ -25,6 +25,6 @@
     },
     {
         "text": "PANDORO",
-        "status": false
+        "status": true
     }
 ]
