@@ -14,7 +14,9 @@ const app = createApp({
             });
         },
         onToDo() {
-            axios.get("api/createTodo.php", this.formData, {
+
+            console.log(this.formData);
+            axios.post("api/createTodo.php", this.formData, {
                 headers: { 'Content-Type': 'multipart/form-data' }
             }).then((resp) => {
                 // ricarico la lista degli utenti

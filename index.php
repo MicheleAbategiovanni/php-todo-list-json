@@ -32,11 +32,11 @@
             <section>
                 <div class="container border rounded-3 p-3">
 
-                    <form action="" method="get">
+                    <form  >
 
                         <div class="input-group ">
                             <span class="input-group-text">Todo:</span>
-                            <input type="text" class="form-control" placeholder="" name="testo" v-model="formData.text">
+                            <input type="text" class="form-control" placeholder="" v-model="formData.text">
                             <button class="btn btn-danger" @click.prevent="onToDo">Aggiungi</button>
                         </div>
 
