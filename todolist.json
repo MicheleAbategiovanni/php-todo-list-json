@@ -1,18 +1,30 @@
 [
     {
-        "text": "Benedire chi invent\u00f2 il php",
+        "text": "Hello pippo 🤪",
         "status": false
     },
     {
-        "text": "Php senza zucchero",
+        "text": "Php senza zucchero 😭",
         "status": false
     },
     {
-        "text": "Php bastard",
+        "text": "Vue + Vite 😍",
         "status": false
     },
     {
-        "text": "fare l'astronauta era pi\u00f9 semplice",
+        "text": "HTML 5",
+        "status": false
+    },
+    {
+        "text": "CSS",
+        "status": false
+    },
+    {
+        "text": "Laravel",
+        "status": false
+    },
+    {
+        "text": "PANDORO",
         "status": false
     }
 ]

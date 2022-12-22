@@ -16,6 +16,8 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -28,11 +30,11 @@
             </nav>
         </header>
 
-        <main>
+        <main class="container">
             <section>
-                <div class="container border rounded-3 p-3">
+                <div class="border mb-5 rounded-3 p-3">
 
-                    <form  >
+                    <form>
 
                         <div class="input-group ">
                             <span class="input-group-text">Todo:</span>
@@ -47,9 +49,21 @@
             </section>
 
             <section>
-                <div class="container mt-3 border rounded-3">
-                    <h3 v-for="element in toDoList">{{element.text}}</h3>
+
+                <div class="container-todolist border rounded-3">
+    
+                    <div class="d-flex justify-content-between border-bottom p-3 align-items-baseline" v-for="element in toDoList">
+                        <p>{{element.text}}</p>
+    
+                        <a href="#" class="rounded-2 bg-danger p-2 text-white ">
+                            <i class="fa-solid fa-trash fs-6"></i>
+                        </a>
+    
+    
+                    </div>
+    
                 </div>
+
             </section>
         </main>
 
