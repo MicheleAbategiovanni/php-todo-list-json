@@ -1,5 +1,7 @@
 <?php
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -57,7 +59,7 @@
                         <p :class="(element.status === true ) ? 'text-decoration-line-through' : '' ">{{element.text}}</p>
 
                         <a href="#" class="rounded-2 bg-danger p-2 text-white ">
-                            <i class="fa-solid fa-trash fs-6" ></i>
+                            <i class="fa-solid fa-trash fs-6"></i>
                         </a>
 
 
